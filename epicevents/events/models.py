@@ -36,7 +36,7 @@ class Event(models.Model):
     notes = models.TextField(null=True, blank=True)
 
     def __str__(self):
-        return f'{Client.objects.get(id=self.client.id)} {self.date_created}'
+        return f'{self.name}'
 
 
 

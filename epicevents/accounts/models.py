@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 class UserManager(BaseUserManager):
-    """Define a model manager for User model with no username field."""
+    """Define a model manager for User model without username field."""
 
     use_in_migrations = True
 
